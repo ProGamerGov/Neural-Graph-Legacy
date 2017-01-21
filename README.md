@@ -17,7 +17,7 @@ Matplotlib is also required:
 
 First run the modified neural_style.lua script with `2>&1 | tee ~/neural-style/loss_values.log` at the end of your Neural-Style command paramters. Example: 
 
-`th neural_style.lua -style_image <image.jpg> -content_image <image.jpg> 2>&1 | tee ~/neural-style/loss_values.log`
+`th neural_style_csv.lua -style_image <image.jpg> -content_image <image.jpg> -print_iter 10 2>&1 | tee ~/neural-style/loss_values.log`
 
 Or if you are using multires, then do:
 
