@@ -38,6 +38,8 @@ Make sure the first row of the CSV file is (If using different combinations of l
 Iteration | Content 1 loss | Style 1 loss | Style 2 loss |  Style 3 loss | Style 4 loss | Style 5 loss | Total loss
 --- | --- | --- | --- | --- | --- | --- | --- 
 
+Note that the exact header names are not needed. 
+
 Then first modify the graphing script to match your CSV file(s), and run the graphing script: 
 
 `python graph.py`
