@@ -1,5 +1,5 @@
 # Neural-Graph
-Graph Neural-Style's loss value outputs. Special thanks to [htoyryla](https://github.com/htoyryla) for helping me [modify neural_style.lua](https://github.com/jcjohnson/neural-style/issues/370).
+Graph Neural-Style's loss value outputs. Special thanks to [htoyryla](https://github.com/htoyryla) for helping me [modify the neural_style.lua script](https://github.com/jcjohnson/neural-style/issues/370).
 
 ![](https://i.imgur.com/4ViZZpHl.png)
 
