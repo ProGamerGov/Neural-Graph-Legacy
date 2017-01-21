@@ -23,7 +23,12 @@ Or if you are using multires, then do:
 
 `./multires.sh 2>&1 | tee ~/neural-style/loss_values.log`
 
-After running Neural-Style, you must manually convert the iteration section(s) from the saved terminal log file to their own CSV file. 
+After running Neural-Style, you must manually convert the iteration section(s) from the saved terminal log file to their own CSV file.
+
+Make sure the first row of the CSV file is (If using different combinations of layers, or more than one style image, you may have to modify the CSV file headers):
+
+Iteration | Content 1 loss | Style 1 loss | Style 2 loss |  Style 3 loss | Style 4 loss | Style 5 loss | Total loss
+--- | --- | --- | --- | --- | --- | --- | --- 
 
 Then first modify the graphing script to match your CSV file(s), and run the graphing script: 
 
