@@ -3,6 +3,7 @@ Graph Neural-Style's loss value outputs
 
 ![](https://i.imgur.com/4ViZZpHl.png)
 
+![](https://i.imgur.com/bBHgBbY.png)
 
 The Neural-Style issue: https://github.com/jcjohnson/neural-style/issues/370
 
