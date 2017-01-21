@@ -7,6 +7,8 @@ The modified neural_style.lua script: https://gist.github.com/ProGamerGov/a81346
 
 # Requirements
 
+[Neural-Style](https://github.com/jcjohnson/neural-style/) must be installed.
+
 Make sure you Neural-Style command is modified to use the modified Neural-Style script.
 
 Matplotlib is also required: 
