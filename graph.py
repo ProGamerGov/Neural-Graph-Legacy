@@ -19,13 +19,13 @@ pyplot.ylabel('Loss')
 pyplot.grid()
 
 #Change marker='o' to marker=',' to remove the dots on the line graphs.
-pyplot.plot(iterations, content_1_loss, label='Content 1 loss', lw=2, marker='o')
-pyplot.plot(iterations, style_1_loss, label='Style 1 loss', lw=2, marker='o')
-pyplot.plot(iterations, style_2_loss, label='Style 2 loss', lw=2, marker='o')
-pyplot.plot(iterations, style_3_loss, label='Style 3 loss', lw=2, marker='o')
-pyplot.plot(iterations, style_4_loss, label='Style 4 loss', lw=2, marker='o')
-pyplot.plot(iterations, style_5_loss, label='Style 5 loss', lw=2, marker='o')
-pyplot.plot(iterations, total_loss, label='Total loss', lw=2, marker='o')
+pyplot.plot(iterations, content_1_loss, label='Content 1 loss', lw=2, marker=',')
+pyplot.plot(iterations, style_1_loss, label='Style 1 loss', lw=2, marker=',')
+pyplot.plot(iterations, style_2_loss, label='Style 2 loss', lw=2, marker=',')
+pyplot.plot(iterations, style_3_loss, label='Style 3 loss', lw=2, marker=',')
+pyplot.plot(iterations, style_4_loss, label='Style 4 loss', lw=2, marker=',')
+pyplot.plot(iterations, style_5_loss, label='Style 5 loss', lw=2, marker=',')
+pyplot.plot(iterations, total_loss, label='Total loss', lw=2, marker=',')
 
 #The position of the legend
 pyplot.legend(loc='upper right')
