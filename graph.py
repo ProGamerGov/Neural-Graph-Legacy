@@ -1,7 +1,7 @@
 from matplotlib import pyplot, dates
 from csv import reader
 
-with open('out1.csv', 'r') as f:
+with open('out1.csv', 'r') as f: #Change out1.csv to the name of your CSV file
     data = list(reader(f))
 
 iterations = [i[0] for i in data[1::]]
@@ -18,6 +18,7 @@ pyplot.xlabel('Iterations')
 pyplot.ylabel('Loss')
 pyplot.grid()
 
+#Change marker='o' to marker=',' to remove the dots on the line graphs.
 pyplot.plot(iterations, content_1_loss, label='Content 1 loss', lw=2, marker='o')
 pyplot.plot(iterations, style_1_loss, label='Style 1 loss', lw=2, marker='o')
 pyplot.plot(iterations, style_2_loss, label='Style 2 loss', lw=2, marker='o')
@@ -26,5 +27,6 @@ pyplot.plot(iterations, style_4_loss, label='Style 4 loss', lw=2, marker='o')
 pyplot.plot(iterations, style_5_loss, label='Style 5 loss', lw=2, marker='o')
 pyplot.plot(iterations, total_loss, label='Total loss', lw=2, marker='o')
 
+#The position of the legend
 pyplot.legend(loc='upper right')
 pyplot.show()
