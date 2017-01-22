@@ -9,6 +9,9 @@ The Neural-Style issue: https://github.com/jcjohnson/neural-style/issues/370
 
 Alternate download of the modified neural_style.lua script: https://gist.github.com/ProGamerGov/a8134605c89f01e5bcd88539456675b8
 
+
+More graphs can be found here along with observations: https://github.com/ProGamerGov/Neural-Graph/wiki/Graphs
+
 # Requirements
 
 [Neural-Style](https://github.com/jcjohnson/neural-style/) must be installed.
