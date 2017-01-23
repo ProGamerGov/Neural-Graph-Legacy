@@ -41,7 +41,7 @@ Make sure the first row of the CSV file is (If using different combinations of l
 Iteration | Content 1 loss | Style 1 loss | Style 2 loss |  Style 3 loss | Style 4 loss | Style 5 loss | Total loss
 --- | --- | --- | --- | --- | --- | --- | --- 
 
-Note that the exact header names are not needed. After copying my text file data into Excel, I used this [guide](https://web.archive.org/web/20170123002416/https://help.xero.com/Q_ConvertTXT) to convert it into a "Space" deliminated CSV file.
+Note that the exact header names are not needed. After copying my text file data into Excel, I used this [guide](https://web.archive.org/web/20170123002416/https://help.xero.com/Q_ConvertTXT) to convert it into a "Space" deliminated CSV file. Though you can use whatever method of text to CSV conversion that works for you.
 
 Then first modify the graphing script's tile to match your CSV file(s), and run the graphing script: 
 
