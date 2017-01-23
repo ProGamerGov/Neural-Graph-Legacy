@@ -13,7 +13,7 @@ style_4_loss = [i[5] for i in data[1::]]
 style_5_loss = [i[6] for i in data[1::]]
 total_loss = [i[7] for i in data[1::]]
 
-pyplot.title('Loss Values')
+pyplot.title('Loss Values') #Graph tile
 pyplot.xlabel('Iterations')
 pyplot.ylabel('Loss')
 pyplot.grid()
